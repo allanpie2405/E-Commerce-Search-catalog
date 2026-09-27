@@ -1,0 +1,40 @@
+:root{
+    --background-color:#EFEFEF;
+    --card-color:#D5D5D5;
+    --seach-area-color:#F5F5F5;
+
+}
+body{
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+.Dflex{
+    display: flex;
+}
+.flexJustifyCenter{
+    justify-content: center;
+}
+.conteiner-search{
+    margin: 132px 0;
+    width: 100%;
+}
+.search-area{
+    background-color: var(--seach-area-color);
+    width: 60%;
+    padding: 24px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.255) ;
+}
+#search-img{
+    margin-left: 10px;
+}
+input{
+    margin-left: 22px;
+    font-size: 32px;
+    width: 100%;
+    background-color: var(--seach-area-color);
+    border: none;
+    text-decoration: underline;
+}
+
