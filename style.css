@@ -51,10 +51,32 @@ input{
     width: 330px;
     height: 440px; 
 }
+.card-info-conteiner{
+    margin: 15px 17px 0 17px;
+    height: calc(100% - 30px);
+    width: calc(100% - 34px);
+    display: flex;
+    flex-direction: column;
+}
+.card-info-conteiner p{
+    margin-top: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-info-conteiner h2{
+    font-size: 32px;
+}
 .card-img{
     border-radius: 15px;
     width: 300px;
     height: 230px;
     background-color: white;
-    margin: 15px 17px 0 17px;
+}
+.Dgrid-3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.card-area{
+    margin-inline: 30px;
+    gap: 30px 60px;
 }
