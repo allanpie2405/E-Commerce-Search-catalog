@@ -12,6 +12,12 @@ body{
 .Dflex{
     display: flex;
 }
+.flexRow{
+    flex-direction: row;
+}
+.flexColumn{
+    flex-direction: column;
+}
 .flexJustifyCenter{
     justify-content: center;
 }
@@ -21,7 +27,8 @@ body{
 }
 .search-area{
     background-color: var(--seach-area-color);
-    width: 60%;
+    width: 589px;
+    height: 26px;
     padding: 24px;
     border-radius: 30px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.255) ;
@@ -38,3 +45,16 @@ input{
     text-decoration: underline;
 }
 
+.card{
+    background-color: var(--card-color);
+    border-radius: 25px;
+    width: 330px;
+    height: 440px; 
+}
+.card-img{
+    border-radius: 15px;
+    width: 300px;
+    height: 230px;
+    background-color: white;
+    margin: 15px 17px 0 17px;
+}
