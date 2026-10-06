@@ -52,6 +52,15 @@ input:focus{
     border-radius: 25px;
     width: 330px;
     height: 440px; 
+    transition: filter 0.5s ease, opacity 0.5s ease, scale 0.5s ease;
+}
+.card-area:has(.card:hover) .card:not(:hover){
+    filter: blur(4px);
+    opacity: 0.5;
+}
+
+.card:hover{
+    scale: 105%;
 }
 .card-info-conteiner{
     margin: 15px 17px 0 17px;
@@ -59,6 +68,7 @@ input:focus{
     width: calc(100% - 34px);
     display: flex;
     flex-direction: column;
+
 }
 .card-info-conteiner p{
     margin-top: auto;
@@ -75,14 +85,24 @@ input:focus{
     background-color: white;
     object-fit: cover;
 }
-.Dgrid-3{
+.Dgrid{
     display: grid;
     grid-template-columns: auto auto auto;
 }
 .card-area{
+    width: 100%;
     margin-inline: 30px;
     gap: 30px 60px;
+    flex-wrap: wrap;
+    
 }
 .conteiner-card-area{
     margin-bottom: 30px;
+}
+
+@media screen and (max-width:1024px) {
+    .card-area{
+        gap: 30px;
+    }
+
 }
