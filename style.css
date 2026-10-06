@@ -85,12 +85,7 @@ input:focus{
     background-color: white;
     object-fit: cover;
 }
-.Dgrid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
 .card-area{
-    width: 100%;
     margin-inline: 30px;
     gap: 30px 60px;
     flex-wrap: wrap;
@@ -103,6 +98,7 @@ input:focus{
 @media screen and (max-width:1024px) {
     .card-area{
         gap: 30px;
+        
     }
 
 }
