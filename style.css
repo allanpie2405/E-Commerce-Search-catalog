@@ -86,7 +86,9 @@ input:focus{
     object-fit: cover;
 }
 .card-area{
-    margin-inline: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px;
     gap: 30px 60px;
     flex-wrap: wrap;
     
@@ -98,7 +100,7 @@ input:focus{
 @media screen and (max-width:1024px) {
     .card-area{
         gap: 30px;
-        
+
     }
 
 }
