@@ -9,7 +9,7 @@ const products = [{
     'imgPath':"/Imgs/tenis.jpg",
     'title': "Tênis esportivo",
     'price': "149.90",
-    'category': "calcados"
+    'category': "calçados"
 }, {
     'imgPath':"/Imgs/bolsa.jpg",
     'title': "Bolsa feminina",
@@ -29,7 +29,7 @@ const products = [{
     'imgPath':"/Imgs/tenis.jpg",
     'title': "Tênis urbano",
     'price': "179.90",
-    'category': "calcados"
+    'category': "calçados"
 }, {
     'imgPath':"/Imgs/bolsa.jpg",
     'title': "Mochila executive",
