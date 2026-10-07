@@ -135,17 +135,17 @@ input:focus {
 
 @media screen and (max-width:426px) {
     .card {
-        height: 330px;
-        width: 230px;
+        height: 230px;
+        width: 130px;
         max-width: 100%;
     }
 
     .card-info-conteiner p {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .card-info-conteiner h2 {
-        font-size: 28px;
+        font-size: 20px;
     }
     input{
         font-size: 24px;
