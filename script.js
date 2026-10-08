@@ -1,42 +1,42 @@
 const searchCategory = document.querySelector("#searchinput")
 const renderArea = document.querySelector(".card-area")
 const products = [{
-    'imgPath':"/Imgs/camisa.jpg",
+    'imgPath':"./Imgs/camisa.jpg",
     'title': "Camisa social",
     'price': "79.90",
     'category': "roupas"
 }, {
-    'imgPath':"/Imgs/tenis.jpg",
+    'imgPath':"./Imgs/tenis.jpg",
     'title': "Tênis esportivo",
     'price': "149.90",
     'category': "calçados"
 }, {
-    'imgPath':"/Imgs/bolsa.jpg",
+    'imgPath':"./Imgs/bolsa.jpg",
     'title': "Bolsa feminina",
     'price': "99.90",
     'category': "acessorios"
 }, {
-    'imgPath':"/Imgs/relogio.jpg",
+    'imgPath':"./Imgs/relogio.jpg",
     'title': "Relógio premium",
     'price': "249.90",
     'category': "acessorios"
 }, {
-    'imgPath':"/Imgs/camisa.jpg",
+    'imgPath':"./Imgs/camisa.jpg",
     'title': "Jaqueta casual",
     'price': "169.90",
     'category': "roupas"
 }, {
-    'imgPath':"/Imgs/tenis.jpg",
+    'imgPath':"./Imgs/tenis.jpg",
     'title': "Tênis urbano",
     'price': "179.90",
     'category': "calçados"
 }, {
-    'imgPath':"/Imgs/bolsa.jpg",
+    'imgPath':"./Imgs/bolsa.jpg",
     'title': "Mochila executive",
     'price': "139.90",
     'category': "acessorios"
 }, {
-    'imgPath':"/Imgs/relogio.jpg",
+    'imgPath':"./Imgs/relogio.jpg",
     'title': "Relógio esportivo",
     'price': "219.90",
     'category': "acessorios"
