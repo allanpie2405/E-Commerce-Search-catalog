@@ -51,7 +51,7 @@ input {
     font-size: 32px;
     flex: 1;
     min-width: 0;
-    background-color:transparent;
+    background-color: transparent;
     border: none;
     text-decoration: underline;
 }
@@ -135,25 +135,54 @@ input:focus {
 
 @media screen and (max-width:426px) {
     .card {
+        width: 160px;
         height: 230px;
-        width: 130px;
-        max-width: 100%;
+    }
+
+    .card-img {
+        height: 110px;
+    }
+
+    .card-info-conteiner h2 {
+        font-size: 18px;
     }
 
     .card-info-conteiner p {
         font-size: 14px;
     }
 
-    .card-info-conteiner h2 {
-        font-size: 20px;
+    .card-info-conteiner {
+        margin: 12px 10px 0 10px;
+        height: calc(100% - 24px);
+        width: calc(100% - 20px);
     }
-    input{
+
+    input {
         font-size: 24px;
     }
+
     .search-area {
-        padding: 5px ;
+        padding: 5px;
     }
-    #search-img{
+
+    #search-img {
         height: 25px;
+    }
+}
+@media screen and (max-width:376px) {
+    .card {
+        width: 140px;
+        height: 210px;
+    }
+    .card-img {
+        height: 90px;
+    }
+
+    .card-info-conteiner h2 {
+        font-size: 16px;
+    }
+
+    .card-info-conteiner p {
+        font-size: 12px;
     }
 }
