@@ -4,8 +4,24 @@
     --seach-area-color: #F5F5F5;
 
 }
+@font-face {
+    font-family: Inter-Regular;
+    src: url(./Fonts/static/Inter_24pt-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Inter-Bold;
+    src: url(./Fonts/static/Inter_24pt-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Inter-Medium;
+    src: url(./Fonts/static/Inter_24pt-Medium.ttf);
+    font-weight: 500;
+}
 
 body {
+    font-family:Inter-Regular;
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
@@ -49,6 +65,7 @@ body {
 input {
     margin-left: 22px;
     font-size: 32px;
+    font-family: Inter-Medium;
     flex: 1;
     min-width: 0;
     background-color: transparent;
@@ -91,6 +108,7 @@ input:focus {
 
 .card-info-conteiner h2 {
     font-size: 32px;
+    font-family: Inter-Bold;
 }
 
 .card-img {
@@ -112,6 +130,17 @@ input:focus {
 
 .conteiner-card-area {
     margin-bottom: 30px;
+}
+
+#NotFound{
+    font-family: Inter-Bold;
+    font-size: 30px;
+    width: auto;
+    height: 64px;
+    line-height: 10px;
+    padding: 10px  20px;
+    background-color: var(--card-color);
+    border-radius: 15px;
 }
 
 @media screen and (min-width:1024px) {
