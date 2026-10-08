@@ -42,8 +42,9 @@ const products = [{
     'category': "acessorios"
 }]
 function renderProducts() {
+    const search= searchCategory.value.trim().toLowerCase()
     renderArea.innerHTML =""
-    if (searchCategory.value === "") {
+    if (search === "") {
         products.forEach(product => {
             renderArea.innerHTML += `
 <div class="card Dflex flexJustifyCenter">
@@ -56,14 +57,14 @@ function renderProducts() {
                 `
         });
     }else{
-        let found= products.filter((product)=>{return product.category==searchCategory.value })
+        const found= products.filter((product)=>{return product.category.trim().toLowerCase().includes(search) })
         found.forEach(product => {
             renderArea.innerHTML += `
 <div class="card Dflex flexJustifyCenter">
                     <div class="card-info-conteiner">
                         <img class="card-img" src="${product.imgPath}" alt="">
                         <h2>${product.title}</h2>
-                        <p>${product.price}</p>
+                        <p>$ ${product.price}</p>
                     </div>
                 </div>
                 `
