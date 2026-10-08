@@ -2,7 +2,7 @@ const searchCategory = document.querySelector("#searchinput")
 const renderArea = document.querySelector(".card-area")
 const products = [{
     'imgPath': "./Imgs/camisa.jpg",
-    'title': "Camisa social",
+    'title': "Camisa social de algodão dryfit tam 48",
     'price': "79.90",
     'category': "roupas"
 }, {

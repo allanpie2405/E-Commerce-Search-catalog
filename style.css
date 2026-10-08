@@ -107,6 +107,11 @@ input:focus {
 }
 
 .card-info-conteiner h2 {
+    display:-webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    overflow-wrap: break-word;
     font-size: 32px;
     font-family: Inter-Bold;
 }
