@@ -169,12 +169,12 @@ input:focus {
 
 @media screen and (max-width:426px) {
     .card {
-        width: 160px;
-        height: 230px;
+        width: min(160px,130px) ;
+        height: min(230px,210px);
     }
 
     .card-img {
-        height: 110px;
+        height: min(110px,90px);
     }
 
     .card-info-conteiner h2 {
